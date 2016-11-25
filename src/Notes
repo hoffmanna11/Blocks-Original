@@ -1,0 +1,10 @@
+TODO
+-Get rid of instances of lastMoves being separate entities from players
+ -lastMoves should be part of the player class
+-
+
+questions:
+-lm, ps, playermoves, playerlocs
+ -don't want to have all these duplicates, which do i need?
+  -lastMoves? remove
+   -
