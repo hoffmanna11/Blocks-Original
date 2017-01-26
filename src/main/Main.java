@@ -22,7 +22,7 @@ import other_units.Move;
 @SuppressWarnings("serial")
 public class Main extends DrawingComponent {
 	/* delay between drawing the moves of players */
-	public static int delay = 0;
+	public static int delay = 100;
 	/* Units */
 	public static List<Player> players;
 	public static List<Block> blocks;
@@ -34,12 +34,12 @@ public class Main extends DrawingComponent {
 	static final int[] left = {-1,0};
 	static final int[] right = {1,0};
 	/* Configuration variables */
-	static final int lastMovesNum =8;
+	static final int lastMovesNum = 8;
 	static final int numberOfPlayers = 2;
 	static final int numberOfBlocks = 4;
 	static final int maxBlockLength = 2;
-	public static final int gridWidth = 8;
-	public static final int gridHeight = 8;
+	public static final int gridWidth = 6;
+	public static final int gridHeight = 6;
 	/* Training variables */
 	public static boolean training = true;
 	public static boolean useBasicWeights = false;
@@ -53,7 +53,7 @@ public class Main extends DrawingComponent {
 	public static List<Boolean> rewardBoolList = new ArrayList<>();
 	public static List<Boolean> punishBoolList = new ArrayList<>();
 	/* Number of cycles it takes to reset the board */
-	public static int resetCycles = 1000;
+	public static int resetCycles = 50;
 	/* Default number of cycles to run */
 	public static int cycles = 1000000;
 	/* Variable that tracks if cycling is paused */
