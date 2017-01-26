@@ -55,7 +55,7 @@ public class Main extends DrawingComponent {
 	/* Number of cycles it takes to reset the board */
 	public static int resetCycles = 50;
 	/* Default number of cycles to run */
-	public static int cycles = 1000000;
+	public static int cycles = 500000;
 	/* Variable that tracks if cycling is paused */
 	public static boolean paused = false;
 	/* Stops cycling */
