@@ -104,9 +104,9 @@ public class CellMatrix {
 	}
 	
 	public Cell getCell(int x, int y){
-		if(x > 7 || y > 7){
-			System.out.println("x: " + x + ", y: " + y);
-		}
+		//if(x > 7 || y > 7){
+		//	System.out.println("x: " + x + ", y: " + y);
+		//}
 		
 		return this.cells.get(x).get(y);
 	}

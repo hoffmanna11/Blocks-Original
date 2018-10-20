@@ -35,11 +35,11 @@ public class Main extends DrawingComponent {
 	static final int[] right = {1,0};
 	/* Configuration variables */
 	static final int lastMovesNum = 8;
-	static final int numberOfPlayers = 2;
-	static final int numberOfBlocks = 4;
+	static final int numberOfPlayers = 5;
+	static final int numberOfBlocks = 3;
 	static final int maxBlockLength = 2;
-	public static final int gridWidth = 6;
-	public static final int gridHeight = 6;
+	public static final int gridWidth = 12;
+	public static final int gridHeight = 12;
 	/* Training variables */
 	public static boolean training = true;
 	public static boolean useBasicWeights = false;

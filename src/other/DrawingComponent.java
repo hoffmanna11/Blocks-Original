@@ -107,6 +107,7 @@ public class DrawingComponent extends Component {
 
 	/* draws in player cell */
 	public static void drawPlayer(int x, int y, Color color){
+		
 		g.setColor(color);
 		int x1, y1, y2, xGridBorderOffset = 0, yGridBorderOffset = 0;
 		xGridBorderOffset = borderWidth * (x+1);
@@ -120,9 +121,11 @@ public class DrawingComponent extends Component {
 		if(null != Main.cells){
 			drawDirectional(Main.cells.getCell(x, y));
 		}
+		
 	}
 
 	public static void drawBlock(int x, int y, int length, Color color){
+		
 		g.setColor(color);
 		int x1, y1, y2, xGridBorderOffset = 0, yGridBorderOffset = 0;
 
@@ -156,6 +159,7 @@ public class DrawingComponent extends Component {
 		if(null != Main.cells){
 			drawDirectional(Main.cells.getCell(x, y));
 		}
+		
 	}
 
 	/* don't really use this anymore since drawInit makes an artificial grid by coloring just the cells, but this can be used if a different color is desired */
