@@ -97,7 +97,7 @@ public class Main extends DrawingComponent {
 		// Reset last moves to blank slate
 		lastMoves = new ArrayList<LastMoves>(numberOfPlayers);
 
-		// Move all units to their original locations
+		// Move all units to their original locations 
 		resetUnitLocations();
 
 		for(int i=1; i<=cycles; i++){
